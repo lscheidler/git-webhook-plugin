@@ -21,5 +21,5 @@ type GitWebhookPlugin interface {
 	Event() Event
 	EventType() string
 	GitUrl() string
-	GitBranch() string
+	GitBranches() []string
 }

@@ -20,5 +20,5 @@ type Event interface {
 	Data() []byte
 	Name() string
 	RepositoryFullName() string
-	BranchName() string
+	BranchNames() []string
 }
